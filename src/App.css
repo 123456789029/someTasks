@@ -1,6 +1,11 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  /* min-width: 100vw;
+  min-height: 100vh;
+  color: white; */
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -14,8 +19,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #072f7e;
+  min-width: 100vw;
   min-height: 100vh;
+  padding: 1px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +39,12 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.isDisabled {
+  background-color: gray !important;
 }

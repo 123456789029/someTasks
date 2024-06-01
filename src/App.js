@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+// import UseStateEx from './UseStateEx'
+// import FormInUseState from './FormInUseState';
+// import ScoreTask from './ScoreTask';
+// import AddToList from './AddToList';
+// import AddToMenu from './AddToMenu';
+// import PendingComplete from './PendingComplete';
+import TaskSubmitForm from './TaskSubmitForm';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        {/* <UseStateEx /> */}
+        {/* <FormInUseState /> */}
+        {/* <ScoreTask /> */}
+        {/* <AddToList /> */}
+        {/* <AddToMenu /> */}
+        {/* <PendingComplete /> */}
+        <TaskSubmitForm />
+      </div>
     </div>
   );
 }
